@@ -129,10 +129,10 @@ TextureImporter:
       name: Bonus Cherry_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 8
-        width: 9
-        height: 13
+        x: 39
+        y: 27
+        width: 46
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

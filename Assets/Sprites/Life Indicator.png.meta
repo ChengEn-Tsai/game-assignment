@@ -129,10 +129,10 @@ TextureImporter:
       name: Life Indicator_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 11
         y: 0
-        width: 29
-        height: 32
+        width: 110
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

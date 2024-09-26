@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: ea6077f94a964ba4d9f80322626f1a51
+guid: f769659ca27d53442a9f8675d654b687
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3610516751961147894
-    second: OutsideWall_0
-  - first:
-      213: -7287636060990698749
-    second: OutsideWall_1
+      213: 544651823244715190
+    second: insideWall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,13 +47,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -129,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OutsideWall_0
+      name: insideWall_0
       rect:
         serializedVersion: 2
-        x: 51
+        x: 0
         y: 0
-        width: 6
-        height: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,29 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0632c7b42ed4edc0800000000000000
-      internalID: -3610516751961147894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OutsideWall_1
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 0
-        width: 6
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30b82543d9d1dda90800000000000000
-      internalID: -7287636060990698749
+      spriteID: 6b425c292fdfe8700800000000000000
+      internalID: 544651823244715190
       vertices: []
       indices: 
       edges: []
@@ -180,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      insideWall_0: 544651823244715190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

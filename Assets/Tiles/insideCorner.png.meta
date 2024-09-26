@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: c6be9cb72a0edf84ab6943c0730b1e54
+guid: b4e84753039872046b7bca9f10ed4ea8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2150435296633266464
-    second: dog walking3_0
-  - first:
-      213: -5489577883337005316
-    second: dog walking3_1
-  - first:
-      213: 1995762430676994990
-    second: dog walking3_2
-  - first:
-      213: 7741571958404640655
-    second: dog walking3_3
-  - first:
-      213: -6176954030350065897
-    second: dog walking3_4
+      213: 9041723931680179513
+    second: insideCorner_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -138,76 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dog walking3_0
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 387
-        width: 102
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 021a9404281e7dd10800000000000000
-      internalID: 2150435296633266464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog walking3_1
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 387
-        width: 102
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf66bd8000a11d3b0800000000000000
-      internalID: -5489577883337005316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog walking3_2
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 387
-        width: 102
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eab82905b5f52bb10800000000000000
-      internalID: 1995762430676994990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog walking3_3
+      name: insideCorner_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 131
-        width: 384
-        height: 250
+        y: 0
+        width: 65
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,29 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8f65d7fda69f6b60800000000000000
-      internalID: 7741571958404640655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog walking3_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3
-        width: 129
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71f111b490d074aa0800000000000000
-      internalID: -6176954030350065897
+      spriteID: 93502f0c208aa7d70800000000000000
+      internalID: 9041723931680179513
       vertices: []
       indices: 
       edges: []

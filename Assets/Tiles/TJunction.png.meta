@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: cbc2eca274b8cbe4988c373ac748681b
+guid: a37f6837c1bd5f044beda8f641d073e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 187414462208986968
-    second: Life Indicator_0
+      213: 1272056469653595252
+    second: TJunction_0
+  - first:
+      213: -1081682401876597237
+    second: TJunction_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Life Indicator_0
+      name: TJunction_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 110
-        height: 125
+        x: 0
+        y: 71
+        width: 128
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +143,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85fccbdd574d99200800000000000000
-      internalID: 187414462208986968
+      spriteID: 474a0f79e9047a110800000000000000
+      internalID: 1272056469653595252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TJunction_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06aa5426971df0f0800000000000000
+      internalID: -1081682401876597237
       vertices: []
       indices: 
       edges: []
@@ -156,8 +180,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Life Indicator_0: 187414462208986968
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cbc2eca274b8cbe4988c373ac748681b
+guid: 67c8e210fb5ba5b408969a32c8436973
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 187414462208986968
-    second: Life Indicator_0
+      213: 544651823244715190
+    second: insideWall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Life Indicator_0
+      name: insideWall_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 59
         y: 0
-        width: 110
-        height: 125
+        width: 6
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85fccbdd574d99200800000000000000
-      internalID: 187414462208986968
+      spriteID: 6b425c292fdfe8700800000000000000
+      internalID: 544651823244715190
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Life Indicator_0: 187414462208986968
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,43 +1,55 @@
 fileFormatVersion: 2
-guid: c15b1e4e074523444acab803f077340f
+guid: 4180445c09ba8ea47932b5fdb044ef89
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8719252337187186296
-    second: dog walking_0
+      213: -1157534579335236495
+    second: dog scared walking_0
   - first:
-      213: 2102375891755300022
-    second: dog walking_1
+      213: -1544765999483046811
+    second: dog scared walking_1
   - first:
-      213: -8524067559270072826
-    second: dog walking_2
+      213: -7484294665369388689
+    second: dog scared walking_2
   - first:
-      213: 5469974889485738573
-    second: dog walking_3
+      213: -1316163224555412838
+    second: dog scared walking_3
   - first:
-      213: 3928423199506069160
-    second: dog walking_4
+      213: -6080030391930410756
+    second: dog scared walking_4
   - first:
-      213: 4858637733511182628
-    second: dog walking_5
+      213: -7339356053923264820
+    second: dog scared walking_5
   - first:
-      213: 1401479024344399939
-    second: dog walking_6
+      213: -4159052914799499043
+    second: dog scared walking_6
   - first:
-      213: 6793354694631554867
-    second: dog walking_7
+      213: 5245539383099060122
+    second: dog scared walking_7
   - first:
-      213: -6752019037037963674
-    second: dog walking_8
+      213: -6242940277356775175
+    second: dog scared walking_8
   - first:
-      213: 4996236462225519389
-    second: dog walking_9
+      213: 3107027520570010516
+    second: dog scared walking_9
   - first:
-      213: -7407639548029998675
-    second: dog walking_10
+      213: -2852221094141991896
+    second: dog scared walking_10
   - first:
-      213: 3479945454472516129
-    second: dog walking_11
+      213: -4470521152664224297
+    second: dog scared walking_11
+  - first:
+      213: -3661522093375787506
+    second: dog scared walking_12
+  - first:
+      213: 470811189345792626
+    second: dog scared walking_13
+  - first:
+      213: 5941343551047422323
+    second: dog scared walking_14
+  - first:
+      213: 3602039451862077150
+    second: dog scared walking_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -159,7 +171,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dog walking_0
+      name: dog scared walking_0
       rect:
         serializedVersion: 2
         x: 11
@@ -173,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88996f6223efef680800000000000000
-      internalID: -8719252337187186296
+      spriteID: 174fd77de6c9fefe0800000000000000
+      internalID: -1157534579335236495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_1
+      name: dog scared walking_1
       rect:
         serializedVersion: 2
         x: 139
@@ -194,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b47b641cb32d2d10800000000000000
-      internalID: 2102375891755300022
+      spriteID: 56436bb0283ef8ae0800000000000000
+      internalID: -1544765999483046811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_2
+      name: dog scared walking_2
       rect:
         serializedVersion: 2
         x: 271
@@ -215,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60eb640a7bd64b980800000000000000
-      internalID: -8524067559270072826
+      spriteID: f697e44c7a1722890800000000000000
+      internalID: -7484294665369388689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_3
+      name: dog scared walking_3
       rect:
         serializedVersion: 2
         x: 0
@@ -236,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d42aa1a4e2149eb40800000000000000
-      internalID: 5469974889485738573
+      spriteID: a9221f5458c0cbde0800000000000000
+      internalID: -1316163224555412838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_4
+      name: dog scared walking_4
       rect:
         serializedVersion: 2
         x: 128
@@ -257,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a676f51610948630800000000000000
-      internalID: 3928423199506069160
+      spriteID: cf8a86962946f9ba0800000000000000
+      internalID: -6080030391930410756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_5
+      name: dog scared walking_5
       rect:
         serializedVersion: 2
         x: 256
@@ -278,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4293e36c6495d6340800000000000000
-      internalID: 4858637733511182628
+      spriteID: cc68ac5fd8e552a90800000000000000
+      internalID: -7339356053923264820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_6
+      name: dog scared walking_6
       rect:
         serializedVersion: 2
         x: 0
@@ -299,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 340853e4fbd037310800000000000000
-      internalID: 1401479024344399939
+      spriteID: dd8a25bd8631846c0800000000000000
+      internalID: -4159052914799499043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_7
+      name: dog scared walking_7
       rect:
         serializedVersion: 2
         x: 11
@@ -320,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33ffebe1a18d64e50800000000000000
-      internalID: 6793354694631554867
+      spriteID: a9fe0f0e646ebc840800000000000000
+      internalID: 5245539383099060122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_8
+      name: dog scared walking_8
       rect:
         serializedVersion: 2
         x: 128
@@ -341,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6665da4a5720c42a0800000000000000
-      internalID: -6752019037037963674
+      spriteID: 9f8bb2ee4ee9c59a0800000000000000
+      internalID: -6242940277356775175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_9
+      name: dog scared walking_9
       rect:
         serializedVersion: 2
         x: 139
@@ -362,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d137ec85792365540800000000000000
-      internalID: 4996236462225519389
+      spriteID: 49b20f671116e1b20800000000000000
+      internalID: 3107027520570010516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_10
+      name: dog scared walking_10
       rect:
         serializedVersion: 2
         x: 256
@@ -383,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da969831417c23990800000000000000
-      internalID: -7407639548029998675
+      spriteID: 8246acec600ea68d0800000000000000
+      internalID: -2852221094141991896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking_11
+      name: dog scared walking_11
       rect:
         serializedVersion: 2
         x: 271
@@ -404,8 +416,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 122d19b04ff3b4030800000000000000
-      internalID: 3479945454472516129
+      spriteID: 7dd349e82b485f1c0800000000000000
+      internalID: -4470521152664224297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog scared walking_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 87
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e671f3e09af2dc0800000000000000
+      internalID: -3661522093375787506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog scared walking_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 83
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2723c314848a88600800000000000000
+      internalID: 470811189345792626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog scared walking_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3715db82b74e37250800000000000000
+      internalID: 5941343551047422323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog scared walking_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede8e2b0cc30df130800000000000000
+      internalID: 3602039451862077150
       vertices: []
       indices: 
       edges: []
@@ -421,18 +517,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dog walking_0: -8719252337187186296
-      dog walking_1: 2102375891755300022
-      dog walking_10: -7407639548029998675
-      dog walking_11: 3479945454472516129
-      dog walking_2: -8524067559270072826
-      dog walking_3: 5469974889485738573
-      dog walking_4: 3928423199506069160
-      dog walking_5: 4858637733511182628
-      dog walking_6: 1401479024344399939
-      dog walking_7: 6793354694631554867
-      dog walking_8: -6752019037037963674
-      dog walking_9: 4996236462225519389
+      dog scared walking_0: -1157534579335236495
+      dog scared walking_1: -1544765999483046811
+      dog scared walking_10: -2852221094141991896
+      dog scared walking_11: -4470521152664224297
+      dog scared walking_12: -3661522093375787506
+      dog scared walking_13: 470811189345792626
+      dog scared walking_14: 5941343551047422323
+      dog scared walking_15: 3602039451862077150
+      dog scared walking_2: -7484294665369388689
+      dog scared walking_3: -1316163224555412838
+      dog scared walking_4: -6080030391930410756
+      dog scared walking_5: -7339356053923264820
+      dog scared walking_6: -4159052914799499043
+      dog scared walking_7: 5245539383099060122
+      dog scared walking_8: -6242940277356775175
+      dog scared walking_9: 3107027520570010516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

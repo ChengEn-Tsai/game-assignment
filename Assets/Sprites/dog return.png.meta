@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 22ee80fd1959e5544af1ffb41a2baf08
+guid: 4bbad3854d7f49649b96fd800eccd233
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8839321251150561992
-    second: usagi dead_0
+      213: -4148386695077639145
+    second: dog return_0
   - first:
-      213: 3001384586782260566
-    second: usagi dead_1
+      213: 4722036189007340509
+    second: dog return_1
   - first:
-      213: 4717051689835179106
-    second: usagi dead_2
+      213: -1769460954869926845
+    second: dog return_2
   - first:
-      213: -1166237042051060802
-    second: usagi dead_3
+      213: -7666829107283249519
+    second: dog return_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: usagi dead_0
+      name: dog return_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 3
         y: 131
-        width: 98
-        height: 122
+        width: 118
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c2046e58d39baa70800000000000000
-      internalID: 8839321251150561992
+      spriteID: 71cc0f8a748fd66c0800000000000000
+      internalID: -4148386695077639145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: usagi dead_1
+      name: dog return_1
       rect:
         serializedVersion: 2
-        x: 143
+        x: 131
         y: 131
-        width: 98
-        height: 122
+        width: 118
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65d3d71316f07a920800000000000000
-      internalID: 3001384586782260566
+      spriteID: dd3625e35ea088140800000000000000
+      internalID: 4722036189007340509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: usagi dead_2
+      name: dog return_2
       rect:
         serializedVersion: 2
-        x: 15
+        x: 3
         y: 3
-        width: 98
-        height: 122
+        width: 118
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26c28c71585567140800000000000000
-      internalID: 4717051689835179106
+      spriteID: 344fd05f2ac9177e0800000000000000
+      internalID: -1769460954869926845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: usagi dead_3
+      name: dog return_3
       rect:
         serializedVersion: 2
-        x: 147
-        y: 39
-        width: 90
-        height: 50
+        x: 131
+        y: 3
+        width: 118
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebbe4a8d691b0dfe0800000000000000
-      internalID: -1166237042051060802
+      spriteID: 196b1ca2c83f99590800000000000000
+      internalID: -7666829107283249519
       vertices: []
       indices: 
       edges: []
@@ -229,10 +229,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      usagi dead_0: 8839321251150561992
-      usagi dead_1: 3001384586782260566
-      usagi dead_2: 4717051689835179106
-      usagi dead_3: -1166237042051060802
+      dog return_0: -4148386695077639145
+      dog return_1: 4722036189007340509
+      dog return_2: -1769460954869926845
+      dog return_3: -7666829107283249519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

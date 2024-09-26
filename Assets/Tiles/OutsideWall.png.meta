@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 5d5f000e4d0362f4fbc7725d5b97a3b4
+guid: ea6077f94a964ba4d9f80322626f1a51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7869189465784614264
-    second: dog walking2_0
+      213: -3610516751961147894
+    second: OutsideWall_0
   - first:
-      213: -3165283553518587245
-    second: dog walking2_1
-  - first:
-      213: 3885571843704951359
-    second: dog walking2_2
-  - first:
-      213: -204148853492027404
-    second: dog walking2_3
-  - first:
-      213: 2159471924823625148
-    second: dog walking2_4
+      213: -7287636060990698749
+    second: OutsideWall_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -138,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dog walking2_0
+      name: OutsideWall_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 387
-        width: 102
-        height: 125
+        x: 51
+        y: 0
+        width: 6
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87d765a502af43d60800000000000000
-      internalID: 7869189465784614264
+      spriteID: a0632c7b42ed4edc0800000000000000
+      internalID: -3610516751961147894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dog walking2_1
+      name: OutsideWall_1
       rect:
         serializedVersion: 2
-        x: 139
-        y: 387
-        width: 102
-        height: 125
+        x: 67
+        y: 0
+        width: 6
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,71 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3927323e067a214d0800000000000000
-      internalID: -3165283553518587245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog walking2_2
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 387
-        width: 102
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f321b4551035ce530800000000000000
-      internalID: 3885571843704951359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog walking2_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 131
-        width: 384
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ffed4a03b7ba2df0800000000000000
-      internalID: -204148853492027404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog walking2_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3
-        width: 129
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbd8a85364cf7fd10800000000000000
-      internalID: 2159471924823625148
+      spriteID: 30b82543d9d1dda90800000000000000
+      internalID: -7287636060990698749
       vertices: []
       indices: 
       edges: []
@@ -252,12 +180,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      dog walking2_0: 7869189465784614264
-      dog walking2_1: -3165283553518587245
-      dog walking2_2: 3885571843704951359
-      dog walking2_3: -204148853492027404
-      dog walking2_4: 2159471924823625148
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

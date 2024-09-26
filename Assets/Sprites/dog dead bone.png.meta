@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dog dead bone_0: -4676248642934354805
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -252,7 +252,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dog walking_0: -8719252337187186296
+      dog walking_1: 2102375891755300022
+      dog walking_2: -8524067559270072826
+      dog walking_3: 5469974889485738573
+      dog walking_4: 3928423199506069160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

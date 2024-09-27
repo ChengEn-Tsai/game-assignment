@@ -21,8 +21,7 @@ public class Tweener : MonoBehaviour
             if (distance > 0.1f && Time.time <= activeTween.StartTime + activeTween.Duration)
             {
                 float t = (Time.time - activeTween.StartTime) / activeTween.Duration;
-                Debug.Log("Time.time: " + Time.time);
-                Debug.Log("activeTween.StartTime: " + activeTween.StartTime);
+
                 Vector3 nextPosition =
                     Vector3.Lerp(
                         activeTween.StartPos,

@@ -9,6 +9,8 @@ using UnityEngine.UI;
 public class PacStudentControl : MonoBehaviour
 {
     private bool isDead = false;
+    public int level = 1;
+    public GameObject SpeedUp;
     public bool isInvinsible = false;
     [SerializeField] private GameObject pacStudent;
     private Tweener tweener;
@@ -67,6 +69,12 @@ public class PacStudentControl : MonoBehaviour
     private int remainingLives = 3;
 
     private int NumberOfEatenNormalPellet = 0;
+
+    private bool hasSpeedUp = false;
+    private float speedUpTime = 0;
+    private float speedUpPeriod = 3.0f;
+    private bool isSpeedingUp = false;
+    private float originalSpeed;
     void Start()
     {
         animator = pacStudent.GetComponent<Animator>();
@@ -77,6 +85,8 @@ public class PacStudentControl : MonoBehaviour
 
         GameObject Manager = GameObject.Find("Manager");
         scaryModeController = Manager.GetComponent<ScaryModeController>();
+
+        originalSpeed = pacStudentSpeed;
     }
 
     // Update is called once per frame
@@ -89,6 +99,35 @@ public class PacStudentControl : MonoBehaviour
             dealWithWalkingEffects();
             eatPallet();
             updateScore();
+        }
+
+        SpeedUpHandler();
+    }
+
+    void SpeedUpHandler ()
+    {
+        if (hasSpeedUp)
+        {
+            SpeedUp.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && hasSpeedUp)
+        {
+            isSpeedingUp = true;
+            hasSpeedUp = false;
+            SpeedUp.SetActive(false);
+            speedUpTime = Time.time;
+            pacStudentSpeed = pacStudentSpeed * 1.5f;
+            SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.color = Color.yellow;
+        }
+
+
+        if (Time.time - speedUpTime > speedUpPeriod && isSpeedingUp)
+        {
+            isSpeedingUp = false;
+            pacStudentSpeed = originalSpeed;
+            SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.color = Color.white;
         }
     }
 
@@ -403,7 +442,14 @@ public class PacStudentControl : MonoBehaviour
             Debug.Log("Get PowerPellet!!!");
             Destroy(other.gameObject);  // Destroy the object
 
-            scaryModeController.TurnOnScaryMode();
+            if (level == 2)
+            {
+                hasSpeedUp = true;
+            }
+            else
+            {
+                scaryModeController.TurnOnScaryMode();
+            }
         }
         if (other.CompareTag("BonusCherry"))
         {

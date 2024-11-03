@@ -12,6 +12,7 @@ public class UIManagers : MonoBehaviour
     }
     public void GoToLevel1()
     {
+        Debug.Log("GOGOGOG LEVEL1");
         SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 }

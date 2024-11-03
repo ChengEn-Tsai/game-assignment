@@ -53,4 +53,9 @@ public class Tweener : MonoBehaviour
     {
         return activeTween != null;
     }
+
+    public void stop ()
+    {
+        activeTween = null;
+    }
 }

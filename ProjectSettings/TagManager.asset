@@ -6,11 +6,18 @@ TagManager:
   tags:
   - PowerPellet
   - BonusCherry
+  - TransporterLeft
+  - TransporterRight
+  - ScoreText
+  - GhostScareTimer
+  - Ghost
+  - PacStudent
+  - door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - door
   - Water
   - UI
   - PacStudent

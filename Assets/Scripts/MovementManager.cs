@@ -29,10 +29,10 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         Transform transform = pacStudent.transform;
         Vector3 currentPositioin = transform.position;
-        
+
         if (currentPositioin == topLeftPos)
         {
             Vector3 nextTerminal = topRightPos;
@@ -48,8 +48,9 @@ public class NewBehaviourScript : MonoBehaviour
                     duration
                 );
             }
-            
-        } else if (currentPositioin == topRightPos)
+
+        }
+        else if (currentPositioin == topRightPos)
         {
             Vector3 nextTerminal = bottomRightPos;
             float duration = Vector3.Distance(currentPositioin, nextTerminal) / pacStudentSpeed;
@@ -64,8 +65,9 @@ public class NewBehaviourScript : MonoBehaviour
                     duration
                 );
             }
-            
-        } else if (currentPositioin == bottomRightPos)
+
+        }
+        else if (currentPositioin == bottomRightPos)
         {
             Vector3 nextTerminal = bottomLeftPos;
             float duration = Vector3.Distance(currentPositioin, nextTerminal) / pacStudentSpeed;
@@ -80,8 +82,9 @@ public class NewBehaviourScript : MonoBehaviour
                     duration
                 );
             }
-            
-        } else if (currentPositioin == bottomLeftPos)
+
+        }
+        else if (currentPositioin == bottomLeftPos)
         {
             Vector3 nextTerminal = topLeftPos;
             float duration = Vector3.Distance(currentPositioin, nextTerminal) / pacStudentSpeed;
@@ -96,19 +99,21 @@ public class NewBehaviourScript : MonoBehaviour
                     duration
                 );
             }
-            
+
         }
     }
 
-    void setAnimationStatus (string status)
+    void setAnimationStatus(string status)
     {
         string[] allStatus = new string[5] { "WalkingUp", "WalkingDown", "WalkingLeft", "WalkingRight", "isDead" };
 
-        for (int i = 0; i < allStatus.Length; i++) {
+        for (int i = 0; i < allStatus.Length; i++)
+        {
             if (status == allStatus[i])
             {
                 animator.SetBool(allStatus[i], true);
-            } else
+            }
+            else
             {
                 animator.SetBool(allStatus[i], false);
             }

@@ -14,15 +14,15 @@ public class Tweener : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (activeTween != null)
+        if (activeTween != null && activeTween.Target != null)
         {
             float distance = Vector3.Distance(activeTween.Target.transform.position, activeTween.EndPos);
             
             if (distance > 0.1f && Time.time <= activeTween.StartTime + activeTween.Duration)
             {
                 float t = (Time.time - activeTween.StartTime) / activeTween.Duration;
-                Debug.Log("Time.time: " + Time.time);
-                Debug.Log("activeTween.StartTime: " + activeTween.StartTime);
+                //Debug.Log("Time.time: " + Time.time);
+                //Debug.Log("activeTween.StartTime: " + activeTween.StartTime);
                 Vector3 nextPosition =
                     Vector3.Lerp(
                         activeTween.StartPos,
@@ -52,5 +52,10 @@ public class Tweener : MonoBehaviour
     public bool tweenerExist ()
     {
         return activeTween != null;
+    }
+
+    public void stop ()
+    {
+        activeTween = null;
     }
 }
